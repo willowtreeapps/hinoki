@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.6.4",
-    "brightscript-languageserver": "file:../../server"
+    "brightscript-languageserver": "^1.0.0"
   },
   "enhancedScopes": [
     "source.brightscript"

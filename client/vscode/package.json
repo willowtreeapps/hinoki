@@ -14,7 +14,7 @@
     "vscode": ">=1.16.0"
   },
   "dependencies": {
-    "brightscript-languageserver": "file:../../server",
+    "brightscript-languageserver": "^1.0.0",
     "vscode": "1.1.5",
     "vscode-languageclient": "3.4.5"
   },
