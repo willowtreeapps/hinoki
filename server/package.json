@@ -1,0 +1,30 @@
+{
+  "name": "brightscript-languageserver",
+  "version": "0.0.1",
+  "description": "A language server for BrightScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowtreeapps/brightscript-languageserver"
+  },
+  "author": "WillowTree Apps, Inc",
+  "publisher": "willowtreeapps",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p ."
+  },
+  "bin": {
+    "brightscript-languageserver": "./lib/bin/cli.js"
+  },
+  "dependencies": {
+    "bslint": "willowtreeapps/bslint#merge-brs-lang",
+    "vscode-languageserver": "3.4.3",
+    "vscode-uri": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.31"
+  }
+}
