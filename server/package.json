@@ -20,7 +20,7 @@
     "brightscript-languageserver": "./lib/bin/cli.js"
   },
   "dependencies": {
-    "bslint": "willowtreeapps/bslint#merge-brs-lang",
+    "bslint": "willowtreeapps/bslint#v1.0.0-beta.1",
     "vscode-languageserver": "3.4.3",
     "vscode-uri": "1.0.1"
   },
