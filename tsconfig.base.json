@@ -6,7 +6,6 @@
         "sourceMap": true,
         "strict": true,
         "lib": [ "es2016" ],
-        "outDir": "lib",
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
