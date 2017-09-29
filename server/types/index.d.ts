@@ -1,0 +1,1 @@
+/// <reference path="bslint/index.d.ts" />
