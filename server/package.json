@@ -1,6 +1,6 @@
 {
   "name": "brightscript-languageserver",
-  "version": "1.0.0",
+  "version": "1.0.0-preview.1",
   "description": "A language server for BrightScript",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "brightscript-languageserver": "./lib/bin/cli.js"
   },
   "dependencies": {
-    "bslint": "^1.0.0",
+    "bslint": "willowtreeapps/bslint",
     "vscode-languageserver": "3.4.3",
     "vscode-uri": "1.0.1"
   },
