@@ -13,8 +13,8 @@
       "node": "*"
     },
     "scripts": {
-      "clean": "./shell-scripts/clean.sh",
-      "build": "./shell-scripts/build.sh",
+      "clean": "./build/clean.sh",
+      "build": "./build/build.sh",
       "rebuild": "npm run clean && npm run build"
     }
   }

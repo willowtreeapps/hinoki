@@ -8,4 +8,4 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     cd $path
     npm install && tsc -p ./
     echo -e "===== Completed build of ${path} =====\r\n"
-done < "${cwd}/paths"
+done < "${cwd}/build/paths"

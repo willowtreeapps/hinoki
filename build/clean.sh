@@ -7,4 +7,4 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     echo -n "Cleaning ${path}..."
     rm -rf "${path}/node_modules" "${path}/package-lock.json"
     echo "done"
-done < "${cwd}/paths"
+done < "${cwd}/build/paths"
