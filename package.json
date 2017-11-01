@@ -1,0 +1,21 @@
+{
+    "name": "brightscript-languageserver",
+    "version": "1.0.0-preview.1",
+    "description": "A language server for BrightScript",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/willowtreeapps/brightscript-languageserver"
+    },
+    "author": "WillowTree Apps, Inc",
+    "publisher": "willowtreeapps",
+    "license": "Apache-2.0",
+    "engines": {
+      "node": "*"
+    },
+    "scripts": {
+      "clean": "./build/clean.sh",
+      "build": "./build/build.sh",
+      "rebuild": "npm run clean && npm run build"
+    }
+  }
+  

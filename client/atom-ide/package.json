@@ -1,6 +1,6 @@
 {
   "name": "atom-ide-brightscript",
-  "version": "1.0.0",
+  "version": "1.0.0-preview.1",
   "description": "BrightScript language support for Atom-IDE.",
   "main": "./lib/main",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.6.4",
-    "brightscript-languageserver": "^1.0.0"
+    "brightscript-languageserver": "file:../../server"
   },
   "enhancedScopes": [
     "source.brightscript"
