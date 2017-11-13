@@ -13,8 +13,9 @@
       "node": "*"
     },
     "scripts": {
-      "clean": "./build/clean.sh",
       "build": "./build/build.sh",
+      "clean": "./build/clean.sh",
+      "docs": "./build/run-docs.sh",
       "rebuild": "npm run clean && npm run build"
     }
   }
