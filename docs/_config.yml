@@ -1,12 +1,16 @@
 title: Hinoki
 description: A Language Server Protocol implementation that provides features like autocomplete, go to definition, find all references, and more for BrightScript.
-baseurl: "/hinoki" # the subpath of your site, e.g. /blog
-url: https://willowtreeapps.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/hinoki"
+url: https://willowtreeapps.github.io
 twitter_username: willowtreeapps
 github_username:  willowtreeapps
 markdown: kramdown
+includes_dir: resources/_includes
+layouts_dir: resources/_layouts
 sass:
-  sass_dir: _assets/stylesheets
+  sass_dir: resources/_assets/stylesheets
+  style: compressed
 
 # Custom variables
 current_version: 1.0.0-beta.1
+logo: hinoki-logo
