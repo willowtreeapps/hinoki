@@ -1,23 +1,32 @@
 {
-    "name": "brightscript-languageserver",
-    "version": "1.0.0-preview.1",
-    "description": "A language server for BrightScript",
-    "keywords": ["roku", "brightscript", "lsp", "syntax", "language", "editor"],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/willowtreeapps/brightscript-languageserver"
-    },
-    "author": "WillowTree Apps, Inc",
-    "publisher": "willowtreeapps",
-    "license": "Apache-2.0",
-    "engines": {
-      "node": "*"
-    },
-    "scripts": {
-      "build": "./build/build.sh",
-      "clean": "./build/clean.sh",
-      "docs": "./build/run-docs.sh",
-      "rebuild": "npm run clean && npm run build"
-    }
+  "name": "brightscript-languageserver",
+  "version": "1.0.0-preview.1",
+  "description": "A language server for BrightScript",
+  "keywords": [
+    "roku",
+    "brightscript",
+    "lsp",
+    "syntax",
+    "language",
+    "editor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowtreeapps/brightscript-languageserver"
+  },
+  "author": "WillowTree Apps, Inc",
+  "publisher": "willowtreeapps",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "build": "./build/build.sh",
+    "clean": "./build/clean.sh",
+    "docs": "./build/run-docs.sh",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "typescript": "^2.6.2"
   }
-  
+}

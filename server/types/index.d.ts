@@ -1,1 +1,1 @@
-/// <reference path="bslint/index.d.ts" />
+/// <reference path="wist/index.d.ts" />
