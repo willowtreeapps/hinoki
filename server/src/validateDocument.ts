@@ -1,7 +1,7 @@
 'use strict';
 
 import { TextDocument, Diagnostic, Files, DiagnosticSeverity } from 'vscode-languageserver';
-import * as bslint from 'bslint';
+import * as wist from '@willowtreeapps/wist';
 
 interface Problem {
 	ruleId: string;
@@ -31,7 +31,7 @@ export default function validateDocument(document: TextDocument): Diagnostic[] {
     const diagnostics: Diagnostic[] = [],
         contents = document.getText(),
         filePath = Files.uriToFilePath(document.uri),
-        cliEngine = new bslint.CLIEngine(),
+        cliEngine = new wist.CLIEngine(),
         report: Report = cliEngine.executeOnText(contents, filePath);
 
     if (report && report.results && Array.isArray(report.results) && report.results.length > 0) {
@@ -60,7 +60,7 @@ function makeDiagnostic(problem: Problem): Diagnostic {
 	return {
 		message: message,
 		severity: convertSeverity(problem.severity),
-		source: 'bslint',
+		source: 'wist',
 		range: {
 			start: { line: startLine, character: startChar },
 			end: { line: endLine, character: endChar }
