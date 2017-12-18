@@ -1,5 +1,5 @@
 {
-  "name": "brightscript-languageserver",
+  "name": "@willowtreeapps/hinoki",
   "version": "1.0.0-preview.1",
   "description": "A language server for BrightScript",
   "keywords": [
