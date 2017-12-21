@@ -64,5 +64,4 @@ typings/
 .gradle/
 
 # Generated Code
-client/**/lib
-server/lib
+lib

@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/willowtreeapps/brightscript-languageserver"
+    "url": "https://github.com/willowtreeapps/hinoki"
   },
   "author": "WillowTree Apps, Inc",
   "publisher": "willowtreeapps",
@@ -20,6 +20,7 @@
   "engines": {
     "node": "*"
   },
+  "main": "./lib/server.js",
   "scripts": {
     "build": "./build/build.sh",
     "clean": "./build/clean.sh",
