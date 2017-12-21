@@ -22,11 +22,9 @@
   },
   "main": "./lib/server.js",
   "scripts": {
-    "build": "./build/build.sh",
-    "clean": "./build/clean.sh",
+    "compile": "tsc -p .",
     "docs": "./build/run-docs.sh",
     "rebuild": "npm run clean && npm run build",
-    "compile": "tsc -p .",
     "watch": "tsc -w -p ."
   },
   "bin": {
