@@ -1,1 +1,0 @@
-/// <reference path="atom-languageclient/index.d.ts" />
