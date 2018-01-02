@@ -1,8 +1,14 @@
-# brightscript-languageserver
-A Language Server Protocol implementation for BrightScript
+# Hinoki
 
-## Contributing to Hinoki
+A [Language Server Protocol](https://langserver.org/) implementation for BrightScript.
 
-Contributions are welcome. Please see the [Contributing guidelines](CONTRIBUTING.md).
+# Clients
+Client implementations are available for
 
-Hinoki has adopted a [code of conduct](CODE_OF_CONDUCT.md) defined by the [Contributor Covenant](http://contributor-covenant.org), the same used by the [Swift language](https://swift.org) and countless other open source software teams.
+* Atom - [Atom IDE Brightscript](https://atom.io/packages/atom-ide-brightscript)
+* VsCode - Coming soon!
+
+# Contributing to Hinoki
+
+Contributions and suggestions are more than welcome. 
+Please see our [Code of Conduct](/CODE_OF_CONDUCT.md) as well as our [Contributing Guidelines ](/CONTRIBUTING.md) for more information.
