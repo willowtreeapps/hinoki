@@ -1,6 +1,6 @@
 {
   "name": "@willowtreeapps/hinoki",
-  "version": "1.0.0-preview.4",
+  "version": "1.0.1",
   "description": "A language server for BrightScript",
   "keywords": [
     "roku",
@@ -18,7 +18,8 @@
   "publisher": "willowtreeapps",
   "license": "Apache-2.0",
   "engines": {
-    "node": "*"
+    "node": ">=7.6.0",
+    "npm": ">=5.3.0"
   },
   "main": "./lib/server.js",
   "scripts": {
@@ -31,8 +32,8 @@
     "brightscript-languageserver": "./lib/bin/cli.js"
   },
   "dependencies": {
-    "@willowtreeapps/wist": "1.0.0-beta.4",
-    "vscode-languageserver": "3.4.3",
+    "@willowtreeapps/wist": "^1.1.0",
+    "vscode-languageserver": "^3.4.3",
     "vscode-uri": "1.0.1"
   },
   "devDependencies": {
