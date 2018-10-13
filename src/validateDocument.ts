@@ -56,6 +56,8 @@ function makeDiagnostic(problem: Problem): Diagnostic {
         startChar = Math.max(0, problem.column - 1),
         endLine = problem.endLine != null ? Math.max(0, problem.endLine - 1) : startLine,
         endChar = problem.endColumn != null ? Math.max(0, problem.endColumn - 1) : startChar;
+
+    const code = (problem.ruleId != null) ? problem.ruleId : undefined
     
 	return {
 		message: message,
@@ -65,7 +67,7 @@ function makeDiagnostic(problem: Problem): Diagnostic {
 			start: { line: startLine, character: startChar },
 			end: { line: endLine, character: endChar }
 		},
-		code: problem.ruleId
+		code: code
 	};
 }
 
