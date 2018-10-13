@@ -1,6 +1,6 @@
 'use strict';
 
-import { IConnection, TextDocument, TextDocuments, InitializeResult, createConnection } from 'vscode-languageserver';
+import { IConnection, TextDocument, TextDocuments, TextDocumentPositionParams, CompletionItem, InitializeResult, createConnection } from 'vscode-languageserver';
 import validateDocument from './validateDocument';
 
 export function createServer() {
@@ -18,6 +18,12 @@ export function createServer() {
 		documents.onDidChangeContent(change => validate(change.document));
 
 		connection.onDidChangeConfiguration(() => documents.all().forEach(validate));
+
+		connection.onCompletion(
+			(_textDocumentPosition: TextDocumentPositionParams): CompletionItem[] => {
+				return [];
+			}
+		);
 
 		return {
 			capabilities: {
