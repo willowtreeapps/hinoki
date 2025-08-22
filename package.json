@@ -34,7 +34,7 @@
   "dependencies": {
     "@willowtreeapps/wist": "^1.1.0",
     "vscode-languageserver": "^3.4.3",
-    "vscode-uri": "1.0.1"
+    "vscode-uri": "1.0.8"
   },
   "devDependencies": {
     "@types/node": "8.5.2",
