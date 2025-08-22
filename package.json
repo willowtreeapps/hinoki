@@ -32,7 +32,7 @@
     "brightscript-languageserver": "./lib/bin/cli.js"
   },
   "dependencies": {
-    "@willowtreeapps/wist": "^1.1.0",
+    "@willowtreeapps/wist": "^1.2.0",
     "vscode-languageserver": "^3.4.3",
     "vscode-uri": "1.0.1"
   },
